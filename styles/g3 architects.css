@@ -14,7 +14,7 @@
   border: none;
   font-weight: 600;
   margin: 30px 0;
-  cursor:pointer;
+  cursor: pointer;
 }
 /* header section styles */
 header {
@@ -50,7 +50,7 @@ nav li a {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-} 
+}
 .banner-title {
   font-size: 4rem;
   font-weight: 700;
@@ -65,53 +65,46 @@ nav li a {
 }
 
 /* Team feature section styles */
-main{
+main {
   max-width: 1440px;
   margin: 70px auto;
 }
 /* team features sectoin styles */
-.features-container{
-  display:flex;
-  align-items:center;
-  gap:4.3rem;
-  
+.features-container {
+  display: flex;
+  align-items: center;
+  gap: 4.3rem;
 }
-.feature-photo{
+.feature-photo {
   display: grid;
-  grid-template-columns: repeat( 2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-
 }
-.feature-text{
+.feature-text {
   margin-right: 70px;
   margin-left: 70px;
-  
 }
 
-.f-quick{  
+.f-quick {
   color: #727272;
   font-size: 2rem;
   font-weight: 500;
 }
-.f-our{
-  color:#131313;
+.f-our {
+  color: #131313;
   font-size: 2rem;
   font-weight: 700;
 }
-.f-feature{
-  color: #FF900E;
-  font-size:2rem;
-  font-weight:700;
+.f-feature {
+  color: #ff900e;
+  font-size: 2rem;
+  font-weight: 700;
 }
-.feature-description{
+.feature-description {
   font-size: 1rem;
   font-weight: 400;
-  color: #727272 ;
+  color: #727272;
 }
-
-
- 
-
 
 /* Responsiveness section  */
 /* for small and mobile devices */
@@ -119,23 +112,18 @@ main{
   header {
     padding: 20px;
   }
-  nav{
+  nav {
     flex-direction: column;
   }
   .features-container {
-    flex-direction:column-reverse;
-  
+    flex-direction: column-reverse;
   }
-  .feature-photo{
-    
-    grid-template-columns: 1fr;
-    
-  
-  }
-  .feature-text{
+  .feature-text {
     margin-right: 20px;
     margin-left: 20px;
-    
+  }
+  .feature-photo {
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -144,5 +132,12 @@ main{
   }
   nav {
     flex-direction: column;
+  }
+  .features-container {
+    flex-direction: column-reverse;
+  }
+
+  .feature-photo {
+    grid-template-columns: 1fr;
   }
 }
