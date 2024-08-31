@@ -16,6 +16,16 @@
   margin: 30px 0;
   cursor: pointer;
 }
+.section-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+}
+.section-title{
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 700;
+}
 /* header section styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -90,21 +100,39 @@ main {
   font-size: 2rem;
   font-weight: 500;
 }
-.f-our {
-  color: #131313;
-  font-size: 2rem;
-  font-weight: 700;
-}
+
 .f-feature {
   color: #ff900e;
   font-size: 2rem;
   font-weight: 700;
 }
-.feature-description {
-  font-size: 1rem;
-  font-weight: 400;
+/* Card section styles  */
+.card-section-container{
+  display: flex;
+  justify-content: space-around;
+}
+.card-section-container .card{
+  border: 1px solid #ff900e;
+  border-radius:8px;
+  width: 242px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0 180px 0;
+}
+.card-section-container .card-title{
+  font-size: 2.8rem;
+font-weight: 600;
+margin: 10px 0 0 0;
+}
+.card-section-container .card-text{
+  font-size: 1.25rem;
+  font-weight: 600;
   color: #727272;
 }
+
 
 /* Responsiveness section  */
 /* for small and mobile devices */
