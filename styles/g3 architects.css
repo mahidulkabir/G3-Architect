@@ -153,6 +153,14 @@ margin: 10px 0 0 0;
   .feature-photo {
     grid-template-columns: 1fr;
   }
+  .card-section-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  .card-section-container .card{
+    margin: 20px 0 20px 0;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
@@ -168,4 +176,13 @@ margin: 10px 0 0 0;
   .feature-photo {
     grid-template-columns: 1fr;
   }
+  .card-section-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  .card-section-container .card{
+    margin: 20px 0 20px 0;
+  }
+  
 }
