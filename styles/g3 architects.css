@@ -174,7 +174,7 @@ margin: 10px 0 0 0;
   }
 
   .feature-photo {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 0.5fr);
   }
   .card-section-container{
     justify-content: space-around;
