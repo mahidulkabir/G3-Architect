@@ -110,6 +110,7 @@ main {
 /* love section styles */
 .love {
   margin-top: 130px;
+  margin-left: 50px;
   display: flex;
 }
 .love-title-text {
@@ -202,6 +203,21 @@ main {
 .sponsor-img img {
   width: 167px;
 }
+
+/* footer section styles  */
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  text-align: center;
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 40px 0;
+  color: #424242;
+
+  font-size: 1.25rem;
+
+  font-weight: 400;
+}
 /* Responsiveness section  */
 
 /* for small and mobile devices */
@@ -210,8 +226,8 @@ main {
     padding: 20px;
   }
   nav,
-  .sponsor-img ,
-  .love{
+  .sponsor-img,
+  .love {
     flex-direction: column;
   }
   .features-container {
@@ -238,22 +254,25 @@ main {
     width: 167px;
     margin-top: 20px;
   }
- 
+
   .love-img img {
-    margin-left: 50px;
+    margin-left: 0;
     margin-top: 20px;
     width: 80%;
   }
-  .love .card{
+  .love .card {
     width: 100%;
   }
   .ten-year {
-    
     width: 100%;
-    
+
     position: static;
     bottom: 0;
     margin-top: 50px;
+  }
+  footer {
+    margin: 0;
+    padding: 20px;
   }
 }
 
@@ -263,7 +282,8 @@ main {
   header {
     padding: 50px;
   }
-  nav {
+  nav,
+  .love {
     flex-direction: column;
   }
   .features-container {
