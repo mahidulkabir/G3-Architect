@@ -106,7 +106,12 @@ main {
   font-size: 2rem;
   font-weight: 700;
 }
+
 /* Card section styles  */
+.facts-title{
+  margin-top: 150px;
+}
+
 .card-section-container{
   display: flex;
   justify-content: space-around;
@@ -133,14 +138,29 @@ margin: 10px 0 0 0;
   color: #727272;
 }
 
+/* sponsor section styles */
+.sponsor-text{
+  text-align: center;
+}
+.sponsor-img{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 
+}
+.sponsor-img img{
+  width: 167px;
+}
 /* Responsiveness section  */
+
+
+
 /* for small and mobile devices */
 @media screen and (max-width: 576px) {
   header {
     padding: 20px;
   }
-  nav {
+  nav, .sponsor-img {
     flex-direction: column;
   }
   .features-container {
@@ -161,7 +181,19 @@ margin: 10px 0 0 0;
   .card-section-container .card{
     margin: 20px 0 20px 0;
   }
+  .sponsor-img{
+    align-items: center;
+    
+  }
+  .sponsor-img img{
+    width: 167px;
+    margin-top: 20px;
+  }
 }
+
+/* responsive styles for tablet i.e. medium device */
+
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
     padding: 50px;
@@ -183,6 +215,13 @@ margin: 10px 0 0 0;
   }
   .card-section-container .card{
     margin: 20px 0 20px 0;
+  }
+  .sponsor-img{
+    flex-wrap: wrap;
+  }
+  .sponsor-img img{
+    
+    margin-top: 20px;
   }
   
 }
