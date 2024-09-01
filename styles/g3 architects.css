@@ -16,12 +16,12 @@
   margin: 30px 0;
   cursor: pointer;
 }
-.section-description{
+.section-description {
   font-size: 1rem;
   font-weight: 400;
   color: #727272;
 }
-.section-title{
+.section-title {
   color: #131313;
   font-size: 2rem;
   font-weight: 700;
@@ -108,19 +108,72 @@ main {
 }
 
 /* love section styles */
+.love {
+  margin-top: 130px;
+  display: flex;
+}
+.love-title-text{
+  border-left:5px solid #ff900e ;
+  padding-left: 1rem;
+}
+.love-title-description {
+  margin-top: 1.25rem;
+  
+  width: 80%;
+}
+.love .card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
+  width: 80%;
+}
+.love .card-title {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.love .card-description {
+  padding: 0 30px 30px 30px;
+}
+.love-img img{
+  margin-left: 100px;
+  margin-top: 20px;
+  height: 70%;
+}
+.ten-year {
+  background-color: #ff900e;
+  color: #fff;
+  width: 342px;
+  height: 200px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.ten-year-title {
+  padding-top: 2.8rem;
 
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 700;
+}
+.ten-year-exp {
+  font-size: 1.5rem;
+
+  font-weight: 500;
+  margin: 0;
+}
 /* Card section styles  */
-.facts-title{
+.facts-title {
   margin-top: 150px;
 }
 
-.card-section-container{
+.card-section-container {
   display: flex;
   justify-content: space-around;
 }
-.card-section-container .card{
+.card-section-container .card {
   border: 1px solid #ff900e;
-  border-radius:8px;
+  border-radius: 8px;
   width: 242px;
   height: 242px;
   display: flex;
@@ -129,40 +182,38 @@ main {
   justify-content: center;
   margin: 100px 0 180px 0;
 }
-.card-section-container .card-title{
+.card-section-container .card-title {
   font-size: 2.8rem;
-font-weight: 600;
-margin: 10px 0 0 0;
+  font-weight: 600;
+  margin: 10px 0 0 0;
 }
-.card-section-container .card-text{
+.card-section-container .card-text {
   font-size: 1.25rem;
   font-weight: 600;
   color: #727272;
 }
 
 /* sponsor section styles */
-.sponsor-text{
+.sponsor-text {
   text-align: center;
 }
-.sponsor-img{
+.sponsor-img {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
-
 }
-.sponsor-img img{
+.sponsor-img img {
   width: 167px;
 }
 /* Responsiveness section  */
-
-
 
 /* for small and mobile devices */
 @media screen and (max-width: 576px) {
   header {
     padding: 20px;
   }
-  nav, .sponsor-img {
+  nav,
+  .sponsor-img {
     flex-direction: column;
   }
   .features-container {
@@ -175,26 +226,23 @@ margin: 10px 0 0 0;
   .feature-photo {
     grid-template-columns: 1fr;
   }
-  .card-section-container{
+  .card-section-container {
     justify-content: space-around;
     flex-wrap: wrap;
-    
   }
-  .card-section-container .card{
+  .card-section-container .card {
     margin: 20px 0 20px 0;
   }
-  .sponsor-img{
+  .sponsor-img {
     align-items: center;
-    
   }
-  .sponsor-img img{
+  .sponsor-img img {
     width: 167px;
     margin-top: 20px;
   }
 }
 
 /* responsive styles for tablet i.e. medium device */
-
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
@@ -210,20 +258,17 @@ margin: 10px 0 0 0;
   .feature-photo {
     grid-template-columns: repeat(2, 0.5fr);
   }
-  .card-section-container{
+  .card-section-container {
     justify-content: space-around;
     flex-wrap: wrap;
-    
   }
-  .card-section-container .card{
+  .card-section-container .card {
     margin: 20px 0 20px 0;
   }
-  .sponsor-img{
+  .sponsor-img {
     flex-wrap: wrap;
   }
-  .sponsor-img img{
-    
+  .sponsor-img img {
     margin-top: 20px;
   }
-  
 }
