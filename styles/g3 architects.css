@@ -112,13 +112,13 @@ main {
   margin-top: 130px;
   display: flex;
 }
-.love-title-text{
-  border-left:5px solid #ff900e ;
+.love-title-text {
+  border-left: 5px solid #ff900e;
   padding-left: 1rem;
 }
 .love-title-description {
   margin-top: 1.25rem;
-  
+
   width: 80%;
 }
 .love .card {
@@ -134,7 +134,7 @@ main {
 .love .card-description {
   padding: 0 30px 30px 30px;
 }
-.love-img img{
+.love-img img {
   margin-left: 100px;
   margin-top: 20px;
   height: 70%;
@@ -162,10 +162,7 @@ main {
   font-weight: 500;
   margin: 0;
 }
-/* Card section styles  */
-.facts-title {
-  margin-top: 150px;
-}
+/* features Card section styles  */
 
 .card-section-container {
   display: flex;
@@ -213,7 +210,8 @@ main {
     padding: 20px;
   }
   nav,
-  .sponsor-img {
+  .sponsor-img ,
+  .love{
     flex-direction: column;
   }
   .features-container {
@@ -239,6 +237,23 @@ main {
   .sponsor-img img {
     width: 167px;
     margin-top: 20px;
+  }
+ 
+  .love-img img {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  .love .card{
+    width: 100%;
+  }
+  .ten-year {
+    
+    width: 100%;
+    
+    position: static;
+    bottom: 0;
+    margin-top: 50px;
   }
 }
 
