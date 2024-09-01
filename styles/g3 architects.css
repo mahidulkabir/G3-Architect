@@ -79,7 +79,7 @@ main {
   max-width: 1440px;
   margin: 70px auto;
 }
-/* team features sectoin styles */
+/* team features section styles */
 .features-container {
   display: flex;
   align-items: center;
@@ -106,6 +106,8 @@ main {
   font-size: 2rem;
   font-weight: 700;
 }
+
+/* love section styles */
 
 /* Card section styles  */
 .facts-title{
